@@ -1,0 +1,14 @@
+name: VegeEssentials
+version: '${project.version}'
+main: xyz.vegetabledev.vegeessentials.Core
+api-version: 1.19
+prefix: VegeEssentials
+authors: [ Vegetable ]
+description: Essential commands for any minecraft server owner/admin
+website: VegetableDev.xyz
+commands:
+  gms:
+    description: Sets players game mode to survival
+  gmc:
+    description: Sets players game mode to creative
+
