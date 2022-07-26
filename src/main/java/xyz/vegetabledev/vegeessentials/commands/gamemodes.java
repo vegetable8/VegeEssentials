@@ -26,6 +26,6 @@ public class gamemodes implements CommandExecutor {
             System.out.println("You can not run this command as console.");
         }
         return true;
-        
+
     }
 }

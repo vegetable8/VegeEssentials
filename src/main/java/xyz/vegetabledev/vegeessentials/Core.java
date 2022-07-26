@@ -1,6 +1,7 @@
 package xyz.vegetabledev.vegeessentials;
 
 import org.bukkit.plugin.java.JavaPlugin;
+import xyz.vegetabledev.vegeessentials.commands.broadcast;
 import xyz.vegetabledev.vegeessentials.commands.gamemodes;
 
 public final class Core extends JavaPlugin {
@@ -11,6 +12,7 @@ public final class Core extends JavaPlugin {
         System.out.println("VegeEssentials v1.0 | LOADING ");
         getCommand("gms").setExecutor(new gamemodes());
         getCommand("gmc").setExecutor(new gamemodes());
+        getCommand("broadcast").setExecutor(new broadcast());
 
     }
 
