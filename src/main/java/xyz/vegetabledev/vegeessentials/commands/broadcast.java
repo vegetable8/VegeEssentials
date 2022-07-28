@@ -14,7 +14,7 @@ public class broadcast implements CommandExecutor {
         if (cmd.getName().equalsIgnoreCase("broadcast")) {
             StringBuilder str = new StringBuilder();
             for (int i = 0; i < args.length; i++) {
-                str.append(args[i] + " ");
+                str.append(args[i]).append(" ");
             }
             String s = str.toString();
             String prefix = "[VegeCraft]";
